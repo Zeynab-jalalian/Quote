@@ -55,3 +55,43 @@ body{
   margin: -7px 5px 0 0;
   font-family: monospace;
 }
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid #5372f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5372f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    background: #5372f0;
+    color: #fff;
+}
+.features button{
+ border: none;
+ outline: none;
+ cursor: pointer;
+ background: #5372f0;
+ padding: 13px 22px;
+ border-radius: 30px;
+ color: #fff;
+ font-size: 16px;
+}

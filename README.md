@@ -1,4 +1,4 @@
-# Quote
+# Random Quotes
 
 #### ![Languages](https://img.shields.io/github/languages/count/zeynab-jalalian/Quote) :
  - ![Javascript](https://img.shields.io/badge/javascript-yellow)
